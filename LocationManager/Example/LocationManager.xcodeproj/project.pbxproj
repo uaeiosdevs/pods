@@ -15,6 +15,9 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7063809133AAC9FB3BCFC550 /* Pods_LocationManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36A5BD8F85F092C38AEDDD2 /* Pods_LocationManager_Tests.framework */; };
+		CEB243B123FE6FA1002D97F8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB243AC23FE6FA1002D97F8 /* ReplaceMe.swift */; };
+		CEB243B223FE6FA1002D97F8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB243AD23FE6FA1002D97F8 /* LocationManager.swift */; };
+		CEB243B323FE6FA1002D97F8 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = CEB243AF23FE6FA1002D97F8 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		229595174FE219C90D4523C7 /* Pods_LocationManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EEFE79FF45CEF8817AAAC0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3EEFE79FF45CEF8817AAAC0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		428FE95562BEB34AE64764FF /* Pods-LocationManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-LocationManager_Tests/Pods-LocationManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		437F149AD9D2ACFE104CEF6C /* Pods-LocationManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-LocationManager_Example/Pods-LocationManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LocationManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,10 +45,13 @@
 		607FACE51AFB9204008FA782 /* LocationManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		730EDD45C42A21319C4A1FA6 /* LocationManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationManager.podspec; path = ../LocationManager.podspec; sourceTree = "<group>"; };
+		730EDD45C42A21319C4A1FA6 /* LocationManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocationManager.podspec; path = ../LocationManager.podspec; sourceTree = "<group>"; };
 		87F5833AF3FC43BB356FBCBF /* Pods-LocationManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LocationManager_Tests/Pods-LocationManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B54DA46248B734D24095CAC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B54DA46248B734D24095CAC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C000379A0BA41CEE093A506D /* Pods-LocationManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationManager_Example.release.xcconfig"; path = "Target Support Files/Pods-LocationManager_Example/Pods-LocationManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CEB243AC23FE6FA1002D97F8 /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		CEB243AD23FE6FA1002D97F8 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CEB243AF23FE6FA1002D97F8 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		F36A5BD8F85F092C38AEDDD2 /* Pods_LocationManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,13 +83,13 @@
 				87F5833AF3FC43BB356FBCBF /* Pods-LocationManager_Tests.debug.xcconfig */,
 				428FE95562BEB34AE64764FF /* Pods-LocationManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				CEB243A923FE6FA1002D97F8 /* LocationManager */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for LocationManager */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -160,6 +166,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CEB243A923FE6FA1002D97F8 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				CEB243AA23FE6FA1002D97F8 /* Classes */,
+				CEB243AE23FE6FA1002D97F8 /* Assets */,
+			);
+			name = LocationManager;
+			path = ../LocationManager;
+			sourceTree = "<group>";
+		};
+		CEB243AA23FE6FA1002D97F8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEB243AC23FE6FA1002D97F8 /* ReplaceMe.swift */,
+				CEB243AD23FE6FA1002D97F8 /* LocationManager.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEB243AE23FE6FA1002D97F8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CEB243AF23FE6FA1002D97F8 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -227,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -248,6 +282,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				CEB243B323FE6FA1002D97F8 /* .gitkeep in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +366,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB243B223FE6FA1002D97F8 /* LocationManager.swift in Sources */,
+				CEB243B123FE6FA1002D97F8 /* ReplaceMe.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
