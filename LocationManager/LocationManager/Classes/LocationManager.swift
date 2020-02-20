@@ -11,7 +11,7 @@ import CoreLocation
 open class LocationManager: NSObject, CLLocationManagerDelegate {
     var isLocationOn : Bool = false
     var locationManager : CLLocationManager?
-    var currentLocationPoint : CLLocationCoordinate2D!
+    public var currentLocationPoint : CLLocationCoordinate2D!
     
     public static let shared : LocationManager = {
         
