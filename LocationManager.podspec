@@ -30,7 +30,7 @@ This project is for MOHRE. This module helps to find the user location parameter
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LocationManager/Classes/**/*'
+  s.source_files = 'LocationManager/LocationManager/Classes/**/*'
   
   # s.resource_bundles = {
   #   'LocationManager' => ['LocationManager/Assets/*.png']
