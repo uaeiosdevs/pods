@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LocationManager'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LocationManager.'
+  s.version          = '0.0.1'
+  s.summary          = 'Location Manager for MOHRE.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This project is for MOHRE. This module helps to find the user location parameters.
                        DESC
 
-  s.homepage         = 'https://github.com/shahidlatif2005@gmail.com/LocationManager'
+  s.homepage         = 'https://github.com/uaeiosdevs/pods'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'shahidlatif2005@gmail.com' => 's.latif@mohre.gov.ae' }
-  s.source           = { :git => 'https://github.com/shahidlatif2005@gmail.com/LocationManager.git', :tag => s.version.to_s }
+  s.author           = { 'Shahid Latif' => 's.latif@mohre.gov.ae' }
+  s.source           = { :git => 'https://github.com/uaeiosdevs/pods.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
