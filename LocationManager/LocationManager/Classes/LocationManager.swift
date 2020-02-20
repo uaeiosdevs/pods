@@ -65,7 +65,7 @@ open class LocationManager: NSObject, CLLocationManagerDelegate {
     
     //MARK: CLLocationManagerDelegate Methods
     
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    public func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         self.isLocationOn = self.checkLocationManager()
         self.currentLocationPoint = locations[0].coordinate
         if self.isLocationOn {
@@ -78,13 +78,13 @@ open class LocationManager: NSObject, CLLocationManagerDelegate {
         }
     }
     
-    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+    public func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         self.isLocationOn = false;
         self.currentLocationPoint.latitude = 24.4667;
         self.currentLocationPoint.longitude = 54.3667;
     }
     
-    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+    public func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         self.isLocationOn = false;
         if status  == .authorizedWhenInUse {
             self.isLocationOn = true;
@@ -92,17 +92,17 @@ open class LocationManager: NSObject, CLLocationManagerDelegate {
         
     }
     
-    func locationManagerDidPauseLocationUpdates(_ manager: CLLocationManager) {
+    public func locationManagerDidPauseLocationUpdates(_ manager: CLLocationManager) {
         self.isLocationOn = false;
         
     }
     
-    func locationManagerDidResumeLocationUpdates(_ manager: CLLocationManager) {
+    public func locationManagerDidResumeLocationUpdates(_ manager: CLLocationManager) {
         self.isLocationOn = true;
         
     }
     
-    func locationManager(_ manager: CLLocationManager, didFinishDeferredUpdatesWithError error: Error?) {
+    public func locationManager(_ manager: CLLocationManager, didFinishDeferredUpdatesWithError error: Error?) {
         self.isLocationOn = false;
         
     }
