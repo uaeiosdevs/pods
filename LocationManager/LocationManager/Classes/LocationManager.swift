@@ -36,7 +36,7 @@ open class LocationManager: NSObject, CLLocationManagerDelegate {
         locationManager?.startUpdatingLocation()
     }
     
-    func checkLocationManager() -> Bool {
+    public func checkLocationManager() -> Bool {
         if CLLocationManager.locationServicesEnabled() {
             if CLLocationManager.authorizationStatus() == .denied {
                 return false
@@ -51,7 +51,7 @@ open class LocationManager: NSObject, CLLocationManagerDelegate {
     }
     
     
-    func checkLocationManagerIfChanged()  {
+    public func checkLocationManagerIfChanged()  {
         if self.checkLocationManager() {
             NotificationCenter.default.post(
                 name: NSNotification.Name(rawValue: "LocationOn"),
