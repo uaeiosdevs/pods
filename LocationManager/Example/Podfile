@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LocationManager_Example' do
+  pod 'LocationManager', :path => '../'
+
+  target 'LocationManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
