@@ -13,7 +13,7 @@ open class LocationManager: NSObject, CLLocationManagerDelegate {
     var locationManager : CLLocationManager?
     var currentLocationPoint : CLLocationCoordinate2D!
     
-    static let shared : LocationManager = {
+    public static let shared : LocationManager = {
         
         let instance = LocationManager()
         return instance
